@@ -7,13 +7,14 @@ This project uses lot of stuff as:
 
  📌 [TypeScript](https://www.typescriptlang.org/) </br>
  📌 [NextJS](https://nextjs.org/) </br>
- 📌 [Styled Components](https://styled-components.com/) </br>
+ 📌 [Tailwind](https://tailwindcss.com/) </br>
  📌 [Jest](https://jestjs.io/) </br>
  📌 [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) </br>
  📌 [Storybook](https://storybook.js.org/) </br>
  📌 [Eslint](https://eslint.org/) </br>
  📌 [Prettier](https://prettier.io/) </br>
  📌 [Husky](https://github.com/typicode/husky) </br>
+ 
 First, run the development server:
 
 ```bash
