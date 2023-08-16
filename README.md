@@ -1,4 +1,4 @@
-<h1>Welcome to repository of my portfolio 👋</h1>
+## Welcome to repository of my portfolio 👋
 <a href="https://www.linkedin.com/in/matheus-banqueiro-lima-b594031a2/"><img align="right" align="top" src="https://github.com/Matheubanqueiro/My-page/assets/101984947/84cdb27d-a812-452a-89da-7aea2de33c81"></a>
 
 ✒️ Designer Layout: [Figma](https://www.figma.com/file/pU9CBwgSPukAhELTjf1Zua/My-Page-New?type=design&node-id=3-39&mode=design&t=RtU4Npfjn5MsUmJ6-0)
@@ -12,23 +12,20 @@ This project uses lot of stuff as:
  📌 [Storybook](https://storybook.js.org/) </br>
  📌 [Eslint](https://eslint.org/) </br>
  📌 [Prettier](https://prettier.io/) </br>
- 📌 [Husky](https://github.com/typicode/husky) </br>
- 
+
+## Getting Started
 First, run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
