@@ -1,8 +1,21 @@
-<h1>Bem-Vindo(a) ao repositório do meu site</h1>
+<h1>Welcome to repository of my portfolio 👋</h1>
 <a href="https://www.linkedin.com/in/matheus-banqueiro-lima-b594031a2/"><img align="right" align="top" src="https://github.com/Matheubanqueiro/My-page/assets/101984947/84cdb27d-a812-452a-89da-7aea2de33c81"></a>
 
+✒️ Designer Layout: [Figma](https://www.figma.com/file/pU9CBwgSPukAhELTjf1Zua/My-Page-New?type=design&node-id=3-39&mode=design&t=RtU4Npfjn5MsUmJ6-0)
+
+This project uses lot of stuff as:
+
+ 📌 [TypeScript](https://www.typescriptlang.org/) </br>
+ 📌 [NextJS](https://nextjs.org/) </br>
+ 📌 [Styled Components](https://styled-components.com/) </br>
+ 📌 [Jest](https://jestjs.io/) </br>
+ 📌 [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) </br>
+ 📌 [Storybook](https://storybook.js.org/) </br>
+ 📌 [Eslint](https://eslint.org/) </br>
+ 📌 [Prettier](https://prettier.io/) </br>
+ 📌 [Husky](https://github.com/typicode/husky) </br>
 First, run the development server:
-Designer Layout: [Figma](https://www.figma.com/file/pU9CBwgSPukAhELTjf1Zua/My-Page-New?type=design&node-id=3-39&mode=design&t=RtU4Npfjn5MsUmJ6-0)
+
 ```bash
 npm run dev
 # or
