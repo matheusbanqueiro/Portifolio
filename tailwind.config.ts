@@ -9,11 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: '#42008C',   // Sua cor personalizada
-        secondary: '#DDFF21', // Sua cor personalizada
-        background: '#181818', // Sua cor personalizada
+        primary: '#42008C',   
+        secondary: '#DDFF21', 
+        background: '#181818', 
       },
-      
+      fontFamily: {
+        sans: ['Roboto', 'ui-sans-serif', 'system-ui'],
+      },
     },
   },
   plugins: [],
