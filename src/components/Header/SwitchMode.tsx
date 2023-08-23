@@ -10,7 +10,7 @@ const SwitchMode = () => {
   };
 
   return (
-    <div className="relative mr-10 justify-center items-center flex ">
+    <div className="relative mr-10 justify-center items-center flex">
       <button  onClick={toggleDarkMode}>
         {darkMode ? (
           <svg 
