@@ -9,13 +9,13 @@ const Language = () => {
     setShowOptions(!showOptions);
   };
 
-  const handleLanguageChange = (language) => {
+  const handleLanguageChange = (language:string) => {
     setSelectedLanguage(language);
     toggleOptions();
   };
 
   return (
-    <div className="relative">
+    <div className="relative mr-10 ml-10 justify-center items-center flex text-sm font-bold text-secondary">
       <div className="flex items-center cursor-pointer" onClick={toggleOptions}>
         <h2>{selectedLanguage}</h2>
         <svg
@@ -39,17 +39,17 @@ const Language = () => {
       </div>
       {showOptions && (
         <div
-          className="absolute top-8 left-0 bg-white p-2 border rounded shadow"
+          className="absolute top-8 left-0 p-2  justify-center items-center grid"
           style={{ opacity: showOptions ? 1 : 0, transform: showOptions ? "translateY(0)" : "translateY(-10px)", transition: "opacity 0.3s, transform 0.3s" }}
         >
           <button
-            className="block cursor-pointer"
+            className="relative cursor-pointer justify-center items-center text-white"
             onClick={() => handleLanguageChange("PT")}
           >
             PT
           </button>
           <button
-            className="block cursor-pointer"
+            className="relative cursor-pointer justify-center items-center text-white"
             onClick={() => handleLanguageChange("EN")}
           >
             EN

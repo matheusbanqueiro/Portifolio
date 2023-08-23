@@ -13,8 +13,8 @@ const config: Config = {
         secondary: '#DDFF21', 
         background: '#181818', 
       },
-      fontFamily: {
-        sans: ['Roboto', 'ui-sans-serif', 'system-ui'],
+      fontFamily:{
+        'body':['"Roboto Sans"',]
       },
     },
   },

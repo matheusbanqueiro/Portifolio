@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState } from "react";
 
 const SwitchMode = () => {
@@ -9,7 +10,7 @@ const SwitchMode = () => {
   };
 
   return (
-    <div>
+    <div className="relative mr-10 justify-center items-center flex">
       <button  onClick={toggleDarkMode}>
         {darkMode ? (
           <svg 
