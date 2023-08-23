@@ -20,7 +20,7 @@ const Header = () => {
         height={49}
         priority
       />
-      <div className="relative md:hidden">
+      <div className="relative lg:hidden">
         <svg
           width="25"
           height="24"
@@ -29,7 +29,7 @@ const Header = () => {
           xmlns="http://www.w3.org/2000/svg"
           onClick={toggleMenu}
         >
-          <path
+          <path className="cursor cursor-pointer"
             d="M4.5 6H20.5M4.5 10H20.5M4.5 14H20.5M4.5 18H20.5"
             stroke="white"
             strokeWidth="2"
@@ -54,7 +54,7 @@ const Header = () => {
           </div>
         )}
         </div>
-      <div className="flex ml-60 mr-60">
+      <div className="flex  ml-60 mr-60  max-lg:hidden">
         <a href="#" className="relative group mr-4 text-base">
           Sobre mim <br />
           <span className="absolute bottom--1 left-0 w-0 bg-secondary group-hover:w-full h-1 transition-all duration-300 origin-left rounded"></span>
@@ -72,7 +72,7 @@ const Header = () => {
           <span className="absolute bottom--1 left-0 w-0 bg-secondary group-hover:w-full h-1 transition-all duration-300 origin-left rounded"></span>
         </a>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center ">
         <SwitchMode />
         <Language />
 
