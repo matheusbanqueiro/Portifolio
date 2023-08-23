@@ -39,7 +39,7 @@ const Language = () => {
       </div>
       {showOptions && (
         <div
-          className="absolute top-8 left-0 p-2  justify-center items-center grid"
+          className="absolute top-3 left--2 p-2  justify-center items-center grid"
           style={{ opacity: showOptions ? 1 : 0, transform: showOptions ? "translateY(0)" : "translateY(-10px)", transition: "opacity 0.3s, transform 0.3s" }}
         >
           <button
